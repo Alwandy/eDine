@@ -38,3 +38,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## Instructions 
+We are utilizing bootstrap with sass and Laravel. To work on the HTML part and CSS part. 
+Go into resources. There you will see assets and views. Views are the view part (HTML) and the assets are the CSS and Java.
+Look into app.sass and you will see examples how you can import different css into app.sass then run "npm run dev" to compile the sass and save it in public/css/app.css 
+
+You need homestead to make this work! Or a ubuntu machine! 
