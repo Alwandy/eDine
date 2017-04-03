@@ -1,0 +1,66 @@
+.navbar-top{
+    color:white !important;
+    background-color:black;
+    z-index:3;
+    padding-right:650px;
+    position:absolute;
+	margin-bottom: 0px !important;
+}
+
+
+	@media (max-width: 978px) {
+	.navbar-top{
+			padding:0;
+	}
+}
+
+.navbar-toggle {
+	color:white !important;
+}
+
+
+
+.navbar-top a {
+    color: white !important;
+    background-color: transparent !important;
+ }
+
+
+    .navbar-top a:hover {
+        color: white !important;
+        background-color: transparent !important;
+    }
+
+.navbar{
+ margin-bottom:0px;
+ border-radius:0px !important;
+}
+#header{
+	padding:none;
+	margin:none;
+	height:600px;
+	background:linear-gradient(rgba(180, 84, 84, 0.15), rgba(180, 84, 84, 0.15)),url('/images/header.jpg') no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  position:relative;
+
+}
+
+
+#header{
+background-color: rgba(0, 0, 0, 0.5);
+opacity:1;
+}
+
+#header h1{
+	color:white;
+	text-transform:uppercase;
+	font-family: 'Baloo Bhaina', cursive;
+
+}
+
+#header p{
+		color:white;
+}
