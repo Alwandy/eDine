@@ -18,10 +18,14 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->integer('rid');
             $table->rememberToken();
             $table->timestamps();
         });
-    }
+        Schema::table('users', function (Blueprint $table) {
+            $table->integer('rid');
+        });
+     }
 
     /**
      * Reverse the migrations.

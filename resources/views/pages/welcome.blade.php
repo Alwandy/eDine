@@ -11,15 +11,15 @@
                             <img src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif" class="img-responsive">
                             <div class="content-title">
                                 <div class="text-center">
-                                    <h3><a href="/restaurant?name=">Restaurant name / Short description</a></h3>
+                                    <h3><a href="/restaurant?id=">Restaurant name / Short description</a></h3>
                                 </div>
                             </div>
                             <div class="content-footer">
                                 <img class="user-small-img" src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif">
                                 <span style="font-size: 16px;color: #fff;">Restaurant name</span>
                                 <span class="pull-right">
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
 				</span>
                             </div>
                         </aside>
@@ -30,15 +30,15 @@
                             <img src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif" class="img-responsive">
                             <div class="content-title">
                                 <div class="text-center">
-                                    <h3><a href="/restaurant?name=">Restaurant name / Short description</a></h3>
+                                    <h3><a href="/restaurant?id=">Restaurant name / Short description</a></h3>
                                 </div>
                             </div>
                             <div class="content-footer">
                                 <img class="user-small-img" src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif">
                                 <span style="font-size: 16px;color: #fff;">Restaurant name</span>
                                 <span class="pull-right">
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
 				</span>
                             </div>
                         </aside>
@@ -49,15 +49,15 @@
                             <img src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif" class="img-responsive">
                             <div class="content-title">
                                 <div class="text-center">
-                                    <h3><a href="/restaurant?name=">Restaurant name / Short description</a></h3>
+                                    <h3><a href="/restaurant?id=">Restaurant name / Short description</a></h3>
                                 </div>
                             </div>
                             <div class="content-footer">
                                 <img class="user-small-img" src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif">
                                 <span style="font-size: 16px;color: #fff;">Restaurant name</span>
                                 <span class="pull-right">
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
 				</span>
                             </div>
                         </aside>
@@ -68,15 +68,15 @@
                             <img src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif" class="img-responsive">
                             <div class="content-title">
                                 <div class="text-center">
-                                    <h3><a href="/restaurant?name=">Restaurant name / Short description</a></h3>
+                                    <h3><a href="/restaurant?id=">Restaurant name / Short description</a></h3>
                                 </div>
                             </div>
                             <div class="content-footer">
                                 <img class="user-small-img" src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif">
                                 <span style="font-size: 16px;color: #fff;">Restaurant name</span>
                                 <span class="pull-right">
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
 				</span>
                             </div>
                         </aside>
@@ -87,15 +87,15 @@
                             <img src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif" class="img-responsive">
                             <div class="content-title">
                                 <div class="text-center">
-                                    <h3><a href="/restaurant?name=">Restaurant name / Short description</a></h3>
+                                    <h3><a href="/restaurant?id=">Restaurant name / Short description</a></h3>
                                 </div>
                             </div>
                             <div class="content-footer">
                                 <img class="user-small-img" src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif">
                                 <span style="font-size: 16px;color: #fff;">Restaurant name</span>
                                 <span class="pull-right">
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
 				</span>
                             </div>
                         </aside>
@@ -106,15 +106,15 @@
                             <img src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif" class="img-responsive">
                             <div class="content-title">
                                 <div class="text-center">
-                                    <h3><a href="/restaurant?name=">Restaurant name / Short description</a></h3>
+                                    <h3><a href="/restaurant?id=">Restaurant name / Short description</a></h3>
                                 </div>
                             </div>
                             <div class="content-footer">
                                 <img class="user-small-img" src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif">
                                 <span style="font-size: 16px;color: #fff;">Restaurant name</span>
                                 <span class="pull-right">
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
 				</span>
                             </div>
                         </aside>
@@ -125,15 +125,15 @@
                             <img src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif" class="img-responsive">
                             <div class="content-title">
                                 <div class="text-center">
-                                    <h3><a href="/restaurant?name=">Restaurant name / Short description</a></h3>
+                                    <h3><a href="/restaurant?id=">Restaurant name / Short description</a></h3>
                                 </div>
                             </div>
                             <div class="content-footer">
                                 <img class="user-small-img" src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif">
                                 <span style="font-size: 16px;color: #fff;">Restaurant name</span>
                                 <span class="pull-right">
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
 				</span>
                             </div>
                         </aside>
@@ -144,15 +144,15 @@
                             <img src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif" class="img-responsive">
                             <div class="content-title">
                                 <div class="text-center">
-                                    <h3><a href="/restaurant?name=">Restaurant name / Short description</a></h3>
+                                    <h3><a href="/restaurant?id=">Restaurant name / Short description</a></h3>
                                 </div>
                             </div>
                             <div class="content-footer">
                                 <img class="user-small-img" src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif">
                                 <span style="font-size: 16px;color: #fff;">Restaurant name</span>
                                 <span class="pull-right">
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
-				<a href="/restaurant?name=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30</a>
+				<a href="/restaurant?id=" data-toggle="tooltip" data-placement="right" title="Loved"><i class="fa fa-heart"></i> 20</a>                  
 				</span>
                             </div>
                         </aside>
@@ -187,8 +187,8 @@
                                 <div class="post-img">
                                     <img src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif" class="img-responsive">
                                 </div>
-                                <a href="/restaurant?name="><h5>Restaurant name and description</h5></a>
-                                <p><small><a href="/restaurant?name=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30 Reviews</a></small></p>
+                                <a href="/restaurant?id="><h5>Restaurant name and description</h5></a>
+                                <p><small><a href="/restaurant?id=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30 Reviews</a></small></p>
                             </li>
                             <hr>
 
@@ -196,8 +196,8 @@
                                 <div class="post-img">
                                     <img src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif" class="img-responsive">
                                 </div>
-                                <a href="/restaurant?name="><h5>Restaurant name and description</h5></a>
-                                <p><small><a href="/restaurant?name=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30 Reviews</a></small></p>
+                                <a href="/restaurant?id="><h5>Restaurant name and description</h5></a>
+                                <p><small><a href="/restaurant?id=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30 Reviews</a></small></p>
                             </li>
                             <hr>
 
@@ -205,8 +205,8 @@
                                 <div class="post-img">
                                     <img src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif" class="img-responsive">
                                 </div>
-                                <a href="/restaurant?name="><h5>Restaurant name and description</h5></a>
-                                <p><small><a href="/restaurant?name=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30 Reviews</a></small></p>
+                                <a href="/restaurant?id="><h5>Restaurant name and description</h5></a>
+                                <p><small><a href="/restaurant?id=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30 Reviews</a></small></p>
                             </li>
                             <hr>
 
@@ -214,8 +214,8 @@
                                 <div class="post-img">
                                     <img src="http://webneel.com/sites/default/files/images/manual/logo-restaurant/best-restaurant-logo-design%20(12).gif" class="img-responsive">
                                 </div>
-                                <a href="/restaurant?name="><h5>Restaurant name and description</h5></a>
-                                <p><small><a href="/restaurant?name=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30 Reviews</a></small></p>
+                                <a href="/restaurant?id="><h5>Restaurant name and description</h5></a>
+                                <p><small><a href="/restaurant?id=" data-toggle="tooltip" data-placement="left" title="Comments"><i class="fa fa-comments" ></i> 30 Reviews</a></small></p>
                             </li>
 
 
