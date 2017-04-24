@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Bookings;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -24,5 +24,21 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+
+    protected function bookTable(Request $request)
+    {
+        if ($request->isMethod('post')) {
+            $date = $request->input('date') + ' ' + $request->input('time');
+            Bookings::create([
+                'name' =>$request->input('name'),
+                'email' =>$request->input('email'),
+                'phone' =>$request->input('phone'),
+                'amount' =>$request->input('amount'),
+                'time' => $date,
+
+            ]); 
+           return redirect('/restaurant')->with('status', 'Booking sent!');
+        }
     }
 }

@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,3 +31,7 @@ Route::get('/register', function () {
 Route::get('/reset', function () {
     return view('pages.passwords.reset');
 });
+
+
+
+Route::post('/restaurant/submit', 'HomeController@bookTable');
