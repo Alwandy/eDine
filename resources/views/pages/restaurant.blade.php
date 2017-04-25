@@ -255,7 +255,52 @@
                             </div>
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade" id="Reviews">Reviews</div>
+                    <div role="tabpanel" class="tab-pane fade" id="Reviews">                
+                    @if (Auth::guest())
+                    You need to be logged in to submit a review. 
+                    @else
+                    <br>
+                    <ul class="media-list"> 
+                    <h1> Reviews </h1>
+                      <li class="media">
+                      @foreach($reviews as $review)
+                        <div class="media-body">
+                          <div class="well well-lg">
+                              <h4 class="media-heading text-uppercase reviews">{{$review->name}}</h4>
+                              <ul class="media-date text-uppercase reviews list-inline">
+                                <p>{{$review->created_at}}</p>
+                                <p> Rating: {{$review->rating}}/5</p>
+                              </ul>
+                              <p class="media-comment">
+                                {{$review->comment}}
+                              </p>
+                          </div>  
+                        @endforeach
+                      </li>
+                    </ul> 
+                    
+                    {{ Form::open(['url' => 'restaurant/submitreview', 'class' => 'form-horizontal']) }}
+                    {{ Form::hidden('rid', Request::get('id')) }}
+                    {{ Form::hidden('name', Auth::user()->name) }}
+                    <div class="form-group">
+                    {{Form::label('comment', 'Comment:', ['class' => 'col-md-4 control-label'])}}
+                    <div class="col-md-4">
+                    {{ Form::textarea('comment', 'Food was great..', ['class' => '']) }}
+                    
+                                        </div>           
+                    </div> 
+                    <div class="form-group">
+                    {{Form::label('rating', 'Rating:', ['class' => 'col-md-4 control-label'])}}
+                    <div class="col-md-4">
+                    1 {{Form::radio('rating', '1', true)}}   2 {{Form::radio('rating', '2')}}    3 {{Form::radio('rating', '3')}}    4 {{Form::radio('rating', '4')}}   5 {{Form::radio('rating', '5')}}  
+                    </div> 
+                    </div>
+                    <br>
+                    {{Form::submit('Submit review', ['class' => 'btn btn-default'])}}
+                    {{  Form::close() }}
+                    <br> 
+                    @endif
+                    </div>
                     <div role="tabpanel" class="tab-pane fade" id="Bookings"><br>
                     {{ Form::open(['url' => 'restaurant/submit', 'class' => 'form-horizontal']) }}
                     {{ Form::hidden('rid', Request::get('id')) }}

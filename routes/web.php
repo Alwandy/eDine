@@ -1,5 +1,6 @@
 <?php
-use Illuminate\Http\Request;
+use Request;
+use App\Reviews;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,7 +18,8 @@ Route::get('/', function () {
 });
 
 Route::get('/restaurant', function () {
-    return view('pages.restaurant');
+    $reviews = DB::table('reviews')->where('rid', Request::get('id'))->orderBy('created_at', 'desc')->get();
+    return view('pages.restaurant',  ['reviews' => $reviews]);
 });
 
 Route::get('/login', function () {
@@ -35,3 +37,4 @@ Route::get('/reset', function () {
 
 
 Route::post('/restaurant/submit', 'HomeController@bookTable');
+Route::post('/restaurant/submitreview', 'HomeController@submitReview');
