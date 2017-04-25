@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        //$this->middleware('auth');
     }
 
     /**
@@ -29,16 +29,16 @@ class HomeController extends Controller
     protected function bookTable(Request $request)
     {
         if ($request->isMethod('post')) {
-            $date = $request->input('date') + ' ' + $request->input('time');
+            $date = $request->input('date').' '.$request->input('time');
             Bookings::create([
                 'name' =>$request->input('name'),
                 'email' =>$request->input('email'),
                 'phone' =>$request->input('phone'),
                 'amount' =>$request->input('amount'),
+                'rid' => $request->input('rid'),
                 'time' => $date,
-
             ]); 
-           return redirect('/restaurant')->with('status', 'Booking sent!');
+           return redirect('/restaurant?id='.$request->input('rid').'')->with('status', 'Booking sent!');
         }
     }
 }

@@ -19,7 +19,8 @@ class CreateBookingTable extends Migration
             $table->string('email');
             $table->string('phone');
             $table->integer('amount');
-            $table->timestamp('time');
+            $table->integer('rid');
+            $table->string('time');
             $table->timestamps();
         });
     }

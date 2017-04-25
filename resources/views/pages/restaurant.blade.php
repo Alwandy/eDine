@@ -2,6 +2,9 @@
     @section('content')<br>
     <section id="blog-section" >
         <div class="container" style="padding:3px;">
+        @if (Request::get('id') == null)
+        <h1> ERROR NO VALID RESTAURANT ...</h1>
+        @else
             <h2 class="title-widget-sidebar">// RESTAURANT NAME</h2>
             @if (session('status'))
     <div class="alert alert-success alert-dismissable">
@@ -9,6 +12,7 @@
       <strong>  {{ session('status') }} </strong>
     </div>
 @endif
+
             <ul class="nav nav-tabs">
                 <li class="active"><a href="#Menu" aria-controls="Menu" role="tab" data-toggle="tab">Menu</a></li>
                 <li><a href="#Reviews"  aria-controls="Reviews" role="tab" data-toggle="tab">Reviews</a></li>
@@ -254,6 +258,7 @@
                     <div role="tabpanel" class="tab-pane fade" id="Reviews">Reviews</div>
                     <div role="tabpanel" class="tab-pane fade" id="Bookings"><br>
                     {{ Form::open(['url' => 'restaurant/submit', 'class' => 'form-horizontal']) }}
+                    {{ Form::hidden('rid', Request::get('id')) }}
                     <div class="form-group">
                     {{Form::label('name', 'Fullname:', ['class' => 'col-md-4 control-label'])}}
                     <div class="col-md-4">
@@ -300,6 +305,7 @@
                     </div>
                 </div>
             </div>
+            @endif
         </div>
     </section>
 

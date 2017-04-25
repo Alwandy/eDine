@@ -10,6 +10,6 @@ class Bookings extends Model
     //
     use Notifiable;
     protected $fillable = [
-        "name","email","phone","amount","time"
+        "name","email","phone","amount","time", "rid"
     ];
 }
